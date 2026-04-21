@@ -1,1 +1,345 @@
-{"phases":[],"tasks":[],"pending":[]}
+{
+  "phases": [
+    {
+      "id": "p1",
+      "name": "Fase 1 – Inicio (Objetivos)",
+      "col": "#4f8ef7"
+    },
+    {
+      "id": "p2",
+      "name": "Fase 2 – Planificación (Tiempos y Presupuesto)",
+      "col": "#3ecf8e"
+    },
+    {
+      "id": "p3",
+      "name": "Fase 3 – Ejecución",
+      "col": "#f59e0b"
+    },
+    {
+      "id": "p4",
+      "name": "Fase 4 – Seguimiento y Control (Monitoreo del Progreso)",
+      "col": "#a78bfa"
+    },
+    {
+      "id": "p5",
+      "name": "Fase 5 – Cierre (Entrega y Evaluación de Resultados)",
+      "col": "#e07ba0"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 0,
+      "ph": "p1",
+      "n": "Relevamiento y planos",
+      "r": "Arq. Gómez",
+      "s": "2025-04-01",
+      "e": "2025-04-14",
+      "d": 14,
+      "p": 100
+    },
+    {
+      "id": 1,
+      "ph": "p1",
+      "n": "Permisos municipales",
+      "r": "Admin",
+      "s": "2025-04-06",
+      "e": "2025-04-25",
+      "d": 20,
+      "p": 80
+    },
+    {
+      "id": 2,
+      "ph": "p2",
+      "n": "Limpieza de terreno",
+      "r": "Cuadrilla A",
+      "s": "2025-04-21",
+      "e": "2025-04-27",
+      "d": 7,
+      "p": 100
+    },
+    {
+      "id": 3,
+      "ph": "p2",
+      "n": "Excavación y nivelación",
+      "r": "Cuadrilla B",
+      "s": "2025-04-28",
+      "e": "2025-05-07",
+      "d": 10,
+      "p": 100
+    },
+    {
+      "id": 5,
+      "ph": "p3",
+      "n": "Columnas y vigas",
+      "r": "Cuadrilla C",
+      "s": "2025-05-22",
+      "e": "2025-06-11",
+      "d": 21,
+      "p": 60
+    },
+    {
+      "id": 6,
+      "ph": "p3",
+      "n": "Losa entrepiso",
+      "r": "Cuadrilla C",
+      "s": "2025-06-12",
+      "e": "2025-06-25",
+      "d": 14,
+      "p": 20
+    },
+    {
+      "id": 7,
+      "ph": "p3",
+      "n": "Hito: Estructura lista",
+      "r": "—",
+      "s": "2025-06-25",
+      "e": "2025-06-25",
+      "d": 0,
+      "p": null,
+      "ms": true
+    },
+    {
+      "id": 8,
+      "ph": "p3",
+      "n": "Mampostería exterior",
+      "r": "Cuadrilla A",
+      "s": "2025-06-26",
+      "e": "2025-07-16",
+      "d": 21,
+      "p": 10
+    },
+    {
+      "id": 9,
+      "ph": "p3",
+      "n": "Mampostería interior",
+      "r": "Cuadrilla A",
+      "s": "2025-07-10",
+      "e": "2025-07-30",
+      "d": 21,
+      "p": 0
+    },
+    {
+      "id": 12,
+      "ph": "p3",
+      "n": "Instalación eléctrica",
+      "r": "Electricista",
+      "s": "2025-06-30",
+      "e": "2025-07-29",
+      "d": 30,
+      "p": 5
+    },
+    {
+      "id": 13,
+      "ph": "p3",
+      "n": "Plomería y sanitarios",
+      "r": "Plomero",
+      "s": "2025-07-10",
+      "e": "2025-08-06",
+      "d": 28,
+      "p": 0
+    },
+    {
+      "id": 14,
+      "ph": "p3",
+      "n": "Gas",
+      "r": "Gasista",
+      "s": "2025-08-07",
+      "e": "2025-08-20",
+      "d": 14,
+      "p": 0
+    },
+    {
+      "id": 10,
+      "ph": "p4",
+      "n": "Revoques gruesos",
+      "r": "Cuadrilla D",
+      "s": "2025-07-30",
+      "e": "2025-08-12",
+      "d": 14,
+      "p": 0
+    },
+    {
+      "id": 11,
+      "ph": "p4",
+      "n": "Revoques finos",
+      "r": "Cuadrilla D",
+      "s": "2025-08-13",
+      "e": "2025-08-26",
+      "d": 14,
+      "p": 0
+    },
+    {
+      "id": 15,
+      "ph": "p4",
+      "n": "Pisos y revestimientos",
+      "r": "Cuadrilla E",
+      "s": "2025-08-27",
+      "e": "2025-09-16",
+      "d": 21,
+      "p": 0
+    },
+    {
+      "id": 17,
+      "ph": "p4",
+      "n": "Aberturas y herrajes",
+      "r": "Carpintero",
+      "s": "2025-09-03",
+      "e": "2025-09-23",
+      "d": 21,
+      "p": 0
+    },
+    {
+      "id": 16,
+      "ph": "p4",
+      "n": "Pintura interior",
+      "r": "Cuadrilla E",
+      "s": "2025-09-10",
+      "e": "2025-09-23",
+      "d": 14,
+      "p": 0
+    },
+    {
+      "id": 18,
+      "ph": "p5",
+      "n": "Limpieza final",
+      "r": "Cuadrilla A",
+      "s": "2025-09-24",
+      "e": "2025-09-30",
+      "d": 7,
+      "p": 0
+    },
+    {
+      "id": 19,
+      "ph": "p5",
+      "n": "Hito: Obra terminada",
+      "r": "—",
+      "s": "2025-09-30",
+      "e": "2025-09-30",
+      "d": 0,
+      "p": null,
+      "ms": true
+    }
+  ],
+  "pending": [
+    {
+      "id": 0,
+      "proj": "129_ROCHA IE",
+      "desc": "Armado de presupuestos adecuación eléctrica (respuesta revisión pendiente de PONS) enviado 06/03/2026",
+      "done": false
+    },
+    {
+      "id": 1,
+      "proj": "134_MDQ COLON IL",
+      "desc": "Agregar carteles de salida emergencia, hablar con S&H (pedido HAB)",
+      "done": false
+    },
+    {
+      "id": 2,
+      "proj": "134_MDQ COLON IL",
+      "desc": "Reordenar iluminación existente (pedido S&H) proy IL",
+      "done": false
+    },
+    {
+      "id": 3,
+      "proj": "138_ED ITUZAINGO IE",
+      "desc": "Adecuación eléctrica (hab) — tarea a realizar por RED, fotos de trabajo terminado",
+      "done": false
+    },
+    {
+      "id": 4,
+      "proj": "140_ROSARIO IL",
+      "desc": "Ver iluminación por informe S&H",
+      "done": false
+    },
+    {
+      "id": 5,
+      "proj": "CATAMARCA",
+      "desc": "N2 Marcela Cevallos — rechazado por aumento de alcance cero de 74M y planificado en 10M",
+      "done": false
+    },
+    {
+      "id": 6,
+      "proj": "CEC REP",
+      "desc": "Proy comercial IE - IL - AA",
+      "done": false
+    },
+    {
+      "id": 7,
+      "proj": "CUYO",
+      "desc": "Luminarias en sala de baterías edificio Cuyo — verificación",
+      "done": false
+    },
+    {
+      "id": 8,
+      "proj": "DOC OPEN LAB",
+      "desc": "Estado en obra — hacer seguimiento IE",
+      "done": false
+    },
+    {
+      "id": 9,
+      "proj": "JOVELLANOS",
+      "desc": "Cambio de lugar garita SEG para sala de MT EDESUR para RED",
+      "done": false
+    },
+    {
+      "id": 10,
+      "proj": "PPM TUCUMAN",
+      "desc": "Arreglo de vereda por infracción municipal (avanzado, ver con Marcela Cevallos)",
+      "done": false
+    },
+    {
+      "id": 11,
+      "proj": "REPÚBLICA",
+      "desc": "Canalizaciones de HDMI en P18 y PB",
+      "done": false
+    },
+    {
+      "id": 12,
+      "proj": "PLAN IMPERMEAB. 2026",
+      "desc": "Seguimiento de plan de impermeabilización 2026",
+      "done": false
+    },
+    {
+      "id": 13,
+      "proj": "SUBESTACIONES EDESUR",
+      "desc": "Ventilaciones mecánicas",
+      "done": false
+    },
+    {
+      "id": 14,
+      "proj": "SUBESTACIONES EDESUR",
+      "desc": "Revisión proyectos cortes de fluidos",
+      "done": false
+    },
+    {
+      "id": 15,
+      "proj": "SUBESTACIONES EDESUR",
+      "desc": "Revisión proyectos ventilación Arq. Rapela",
+      "done": false
+    },
+    {
+      "id": 16,
+      "proj": "TANTI",
+      "desc": "AA IL IE sala videoconferencia",
+      "done": false
+    },
+    {
+      "id": 17,
+      "proj": "TANTI",
+      "desc": "Habilitaciones (ver informe eléctrico de Landi, pendiente Sergio Charo 10-04-2026)",
+      "done": false
+    },
+    {
+      "id": 18,
+      "proj": "TANTI",
+      "desc": "Instalación UPS",
+      "done": false
+    },
+    {
+      "id": 19,
+      "proj": "TUCUMAN",
+      "desc": "Shelter RRPP en tema con HAB — Sergio Charo",
+      "done": false
+    }
+  ]
+}
